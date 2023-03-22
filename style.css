@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(162, 162, 203);
+}
+header{
+    height: 20%;
+    width: 100%;
+    border: solid black;
+    background-color: beige;
+    
+}
+.navbar ul{
+    border: solid red;
+    text-decoration: none;
+}
+.navbar ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+    transition: .3s;
+}
